@@ -15,3 +15,8 @@
 ### Описание сайта
 {=site_description} 
 Меняется в настройках SEO (в самом низу в каталоге)
+
+Эти шаблоны можно использовать и в pageProperty, но тогда вы должны выводить свойства в таком виде: 
+<title><?$APPLICATION->ShowTitle()?></title>
+<meta name="keywords" content="<?$APPLICATION->ShowProperty("keywords")?>">
+<meta name="description" content="<?$APPLICATION->ShowProperty("description")?>">
